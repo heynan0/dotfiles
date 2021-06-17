@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo Testing script setup script for codespaces
+git config --global core.editor vim
