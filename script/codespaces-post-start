@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "Hello"
+git config --global core.editor vim
