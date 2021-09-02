@@ -3,3 +3,4 @@
 echo "Codespaces post start"
 git config --global alias.ci commit
 
+alias gs="git status"
