@@ -1,3 +1,4 @@
+alias gb="git branch"
 alias gf="git fetch"
 alias gmom="git merge origin/master"
 alias gs="git status"
