@@ -12,7 +12,7 @@ coa() {
       emails[$username]="$alternative_email"
     done < ~/gitcoauthors.csv
   else
-    echo "ERROR: please create the file ~/gitcoauthors.csv in the following format:"
+    echo "ERROR: please create the file ~/gitcoauthors.csv in the following format, one line for each user:"
     echo
     echo "{username},{name},{no_reply_email},{username_abbreviation}"
     echo
