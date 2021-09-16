@@ -12,7 +12,7 @@ git_commit_with_coauthor() {
   fi
 
   coauthors="$(coa ${@:2})"
-  git commit -m "$1\n\n$coauthors"
+  git commit -m "$1"$'\n\n'"$coauthors"
 }
 alias gcic="git_commit_with_coauthor"
 alias gco="git checkout"
