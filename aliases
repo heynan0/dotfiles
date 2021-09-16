@@ -1,6 +1,7 @@
 alias gb="git branch"
 alias gbd="git branch -d"
 alias gf="git fetch"
+alias gmo="git merge origin/$(git branch | grep '^* ' | tr -d '* ')"
 alias gmom="git merge origin/master"
 alias gs="git status"
 alias gsd="git stash drop"
