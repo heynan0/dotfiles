@@ -13,7 +13,9 @@ git_commit_with_coauthor() {
   git commit -m "$1\n\n$coauthors"
 }
 alias gcic="git_commit_with_coauthor"
+alias gco="git checkout"
 alias gf="git fetch"
+alias gl="git log"
 alias gmo="git merge origin/$(git branch | grep '^* ' | tr -d '* ')"
 alias gmom="git merge origin/master"
 alias gs="git status"
