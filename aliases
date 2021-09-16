@@ -1,5 +1,18 @@
 alias gb="git branch"
 alias gbd="git branch -d"
+git_commit_with_coauthor() {
+  if [ "$1" = "--help" ]
+  then
+    echo "Usage:"
+    echo "  gcic \"Commit message\" some_coauthor another_coauthor"
+    echo "  gcic Commit\\ message some_coauthor another_coauthor"
+    return
+  fi
+
+  coauthors="$(coa ${@:2})"
+  git commit -m "$1\n\n$coauthors"
+}
+alias gcic="git_commit_with_coauthor"
 alias gf="git fetch"
 alias gmo="git merge origin/$(git branch | grep '^* ' | tr -d '* ')"
 alias gmom="git merge origin/master"
