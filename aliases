@@ -1,3 +1,4 @@
+alias brt="bin/rails test"
 alias ga="git add"
 alias gap="git add -p"
 alias gb="git branch"
