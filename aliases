@@ -2,6 +2,7 @@ alias ga="git add"
 alias gap="git add -p"
 alias gb="git branch"
 alias gbd="git branch -d"
+alias gcb="git checkout -b"
 git_commit_with_coauthor() {
   if [ "$1" = "--help" ]
   then
