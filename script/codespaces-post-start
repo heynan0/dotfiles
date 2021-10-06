@@ -1,4 +1,3 @@
 #!/bin/bash
 
 echo "Codespaces post start"
-git config --global alias.ci commit
