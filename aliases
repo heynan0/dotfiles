@@ -17,6 +17,7 @@ git_commit_with_coauthor() {
   git commit -m "$1"$'\n\n'"$coauthors"
 }
 alias gcic="git_commit_with_coauthor"
+alias gcm="git checkout master"
 alias gco="git checkout"
 alias gds="git diff --staged"
 alias gf="git fetch"
