@@ -1,4 +1,4 @@
 #!/bin/bash
 
 echo "Codespaces post start"
-(sleep 5; code --install-extension eamodio.gitlens) &
+(sleep 10; code --install-extension eamodio.gitlens > "/workspaces/github/test.txt") &
