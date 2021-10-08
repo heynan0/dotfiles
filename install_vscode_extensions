@@ -4,9 +4,9 @@ then
     eamodio.gitlens
     zxh404.vscode-proto3
   )
-  #code --install-extension eamodio.gitlens
-  for extension in $extensions
+
+  for extension in ${extensions[@]}
   do
-    code --install-extension #zxh404.vscode-proto3
+    code --install-extension
   done
 fi
