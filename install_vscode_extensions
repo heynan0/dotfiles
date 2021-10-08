@@ -1,0 +1,2 @@
+code --install-extension eamodio.gitlens
+code --install-extension zxh404.vscode-proto3
