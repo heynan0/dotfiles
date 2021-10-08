@@ -2,4 +2,4 @@
 
 cat aliases >> ~/.bashrc
 #cat coa_function.sh >> ~/.bashrc
-#cat gitconfig >> ~/.gitconfig
+cat gitconfig >> ~/.gitconfig
