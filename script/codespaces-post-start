@@ -1,3 +1,4 @@
 #!/bin/bash
 
 echo "Codespaces post start"
+code --install-extension github.codespaces
