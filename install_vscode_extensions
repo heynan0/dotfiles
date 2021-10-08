@@ -1,12 +1,13 @@
-  if code
-  then
-    extensions=(
-      eamodio.gitlens
-      zxh404.vscode-proto3
-    )
+code
+if [ $? -eq 0 ]
+then
+  extensions=(
+    eamodio.gitlens
+    zxh404.vscode-proto3
+  )
 
-    for extension in ${extensions[@]}
-    do
-      code --install-extension $extension
-    done
-  fi
+  for extension in ${extensions[@]}
+  do
+    code --install-extension $extension
+  done
+fi
