@@ -1,4 +1,3 @@
 #!/bin/bash
 
 echo "Codespaces post start"
-(sleep 10; code --install-extension eamodio.gitlens > "/workspaces/github/test.txt" 2>/workspaces/github/test2.txt) &
