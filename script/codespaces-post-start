@@ -1,4 +1,4 @@
 #!/bin/bash
 
 echo "Codespaces post start"
-code --install-extension github.codespaces
+code --install-extension eamodio.gitlens
