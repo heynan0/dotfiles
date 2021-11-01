@@ -2,6 +2,7 @@ code
 if [ $? -eq 0 ]
 then
   extensions=(
+    castwide.solargraph
     eamodio.gitlens
     zxh404.vscode-proto3
   )
