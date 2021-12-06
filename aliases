@@ -1,3 +1,4 @@
+alias bcp="bin/console -p"
 alias brt="bin/rails test"
 alias bsga="bin/elastomer bootstrap && bin/elastomer repair && bin/seed global_advisories"
 alias ga="git add"
